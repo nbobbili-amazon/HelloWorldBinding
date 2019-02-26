@@ -1,0 +1,11 @@
+{
+    "title": "CMake Application templates",
+    "subtitle": "Developer Documentation",
+    "description": "CMake templates used to build an AGL apps and widget",
+    "keywords": "AGL, Development, Iotbzh",
+    "author": "IoT.Bzh Team",
+    "website": "http://iot.bzh",
+    "published": "July 2017",
+    "version": "1.0",
+    "pdf_filename": "Gitbook-Iotbzh-template"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://iot.bzh/download/public/schema/json/ctl-schema.json",
+  "metadata": {
+    "uid": "helloworld",
+    "version": "0.1",
+    "api": "helloworld",
+    "info": "Hello World API"
+  },
+
+  "plugins": [{
+    "uid": "helloworld",
+    "info": "Plugin to handle helloworld API",
+    "libs": [
+      "helloworld-api.ctlso"
+    ]
+  }],
+
+
+  "controls": [{
+      "uid": "ping",
+      "privileges": "urn:AGL:permission:helloworld:ping:public",
+      "action": "plugin://helloworld#ping"
+    }]
+}

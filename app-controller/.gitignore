@@ -1,0 +1,8 @@
+build/
+.vscode
+CMakeCache.txt
+Makefile
+*.so
+nbproject/private
+*.tar.gz
+nbproject

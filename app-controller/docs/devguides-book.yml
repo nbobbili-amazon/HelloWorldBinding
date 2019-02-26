@@ -1,0 +1,19 @@
+type: books
+books:
+-
+    id: app-controller-submodule
+    title: App Controller Submodule
+    description: App Controller Submodule documentation
+    keywords:
+    author: "IotBzh"
+    version: master
+    chapters:
+    - url: Usage.md
+      name: Usage
+    - url: configSample.md
+      name: Configuration Sample
+    - url: controller.md
+      name: Installation
+    - url: controllerConfig.md
+      name: Binding Configuration
+
